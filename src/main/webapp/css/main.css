@@ -1,0 +1,203 @@
+body {
+    background-color: #f3f2f5;
+}
+
+header {
+    background-color: #6c63ff;
+    padding: 10px;
+    color: white;
+}
+.welcome-message {
+    text-align: center;
+    font-size: 24px;
+    color: #6c63ff;
+    margin-top: 20px;
+}
+
+.btn.btn-primary {
+    background-color: #c3ff63;
+    color: #2d2a63;
+    border-color:  #6c63ff;
+}
+
+.btn.btn-primary:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border-color:  #6c63ff;
+}
+
+
+.carousel-item img {
+    object-fit: cover;
+    height: 400px;
+}
+
+.progress-bar {
+    width: 0;
+    transition: width 0.5s ease-in-out;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 10%;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.carousel-item.active .carousel-control-prev,
+.carousel-item.active .carousel-control-next {
+    opacity: 1;
+}
+
+.testimonial {
+    padding: 30px;
+    background-color: #f8f9fa;
+    margin-bottom: 30px;
+    text-align: center;
+    height: 35vh;
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.paquetes {
+    background-color: #e8e6ff;
+    padding: 20px;
+}
+
+.baner_servicios {
+    margin-top: 5%;
+
+    background-color: #d1ceff;
+    padding: 20px;
+}
+
+.instrucciones {
+    margin-top: 5%;
+
+    background-color: #b9b6ff;
+    padding: 20px;
+}
+
+.opiniones {
+    margin-top: 5%;
+
+    background-color: #a1a0ff;
+    padding: 20px;
+}
+
+footer {
+    margin-top: 5%;
+    background-color: #2d2a63; 
+    padding: 20px; 
+    color: white; 
+    text-align: center;
+}
+.col-md-12{
+    display: flex;
+    color: red;
+    justify-content: center;
+}
+#map {
+    height: 400px;
+    width: 100%;
+  }
+
+  .map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+
+  @media screen and (max-width: 768px) {
+    .map-container {
+      height: 300px; /* Ajusta la altura deseada para el mapa en dispositivos más pequeños */
+    }
+  }
+
+/* Estilos del formulario de inicio de sesión */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-form {
+    width: 80%;
+    max-width: 400px;
+}
+
+.login-form .form-group {
+    margin-bottom: 20px;
+}
+
+.login-form .form-group label {
+    color: #6c63ff;
+}
+
+.login-form .form-control {
+    border-radius: 0;
+}
+
+.login-form .btn-primary {
+    background-color: #c3ff63;
+    color: #2d2a63;
+    border-color: #6c63ff;
+}
+
+.login-form .btn-primary:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border-color: #6c63ff;
+}
+
+.login-form .toggle-button {
+    margin-bottom: 10px;
+}
+
+.login-form .password-toggle {
+    position: relative;
+}
+
+.login-form .password-toggle .toggle-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+/* Estilos del formulario de registro */
+.register-form {
+    display: none;
+}
+#register-title {
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+}
+.col-md-6{
+
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+   
+}
+
+.error {
+    color: red;
+}
+
